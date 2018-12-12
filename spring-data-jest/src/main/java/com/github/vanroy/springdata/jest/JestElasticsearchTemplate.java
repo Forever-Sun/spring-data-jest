@@ -277,8 +277,8 @@ public class JestElasticsearchTemplate implements ElasticsearchOperations, Appli
 
 	@Override
 	public Map getMapping(String indexName, String type) {
-		Assert.notNull(indexName, "No index defined for putMapping()");
-		Assert.notNull(type, "No type defined for putMapping()");
+		Assert.notNull(indexName, "No index defined for getMapping()");
+		Assert.notNull(type, "No type defined for getMapping()");
 		Map mappings = null;
 		try {
 
